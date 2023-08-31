@@ -336,6 +336,7 @@ if (isset($_POST['pc2TurnOff'])) {
     .color-button:hover {
         background-color: #900C3F;
     }
+
     .nav-button-data {
         display: flex;
         justify-content: center;
@@ -383,6 +384,7 @@ if (isset($_POST['pc2TurnOff'])) {
         .title {
             font-size: 18px;
         }
+
         .lucide.lucide-chevron-left.nav-button {
             width: 30px;
             height: 30px;
@@ -403,12 +405,19 @@ if (isset($_POST['pc2TurnOff'])) {
                     <i data-lucide="chevron-left" class="nav-button"></i>
                 </div>
             </a>
+            <div class="switch-container">
+                <h3>SMART ROOM</h3>
+            </div>
             <a href="">
                 <div class="nav-button-data">
                     <i data-lucide="refresh-ccw" class="nav-button"></i>
                 </div>
             </a>
+
         </div>
+
+
+
         <div class="content mt-3">
             <p class="title mt-3">
                 Tekan tombol dibawah untuk menyalakan / mematikan perangkat !
@@ -420,7 +429,7 @@ if (isset($_POST['pc2TurnOff'])) {
                             <i data-lucide="lightbulb" class="cont-button"></i>
                         </div>
                         <div class="data-text">
-                            <p class="text">Lampu 1</p>
+                            <p class="">Lampu 1</p>
                             <form action="" method="post">
                                 <?php if ($lamp1State['state'] == 1) : ?>
                                     <button type="submit" class="m-3 color-button" name="lamp1TurnOn">OFF</button>
@@ -439,7 +448,7 @@ if (isset($_POST['pc2TurnOff'])) {
                             <i data-lucide="lightbulb" class="cont-button"></i>
                         </div>
                         <div class="data-text">
-                            <p class="text">Lampu 2</p>
+                            <p class="">Lampu 2</p>
                             <form action="" method="post">
                                 <?php if ($lamp2State['state'] == 1) : ?>
                                     <button type="submit" class="m-3 color-button" name="lamp2TurnOn">OFF</button>
@@ -462,7 +471,7 @@ if (isset($_POST['pc2TurnOff'])) {
                             <i data-lucide="fan" class="cont-button"></i>
                         </div>
                         <div class="data-text">
-                            <p class="text">Kipas 1</p>
+                            <p class="">Kipas 1</p>
                             <form action="" method="post">
                                 <?php if ($fan1State['state'] == 1) : ?>
                                     <button type="submit" class="m-3 color-button" name="fan1TurnOn">OFF</button>
@@ -482,7 +491,7 @@ if (isset($_POST['pc2TurnOff'])) {
                             <i data-lucide="fan" class="cont-button"></i>
                         </div>
                         <div class="data-text">
-                            <p class="text">Kipas 2</p>
+                            <p class="">Kipas 2</p>
                             <form action="" method="post">
                                 <?php if ($fan2State['state'] == 1) : ?>
                                     <button type="submit" class="m-3 color-button" name="fan2TurnOn">OFF</button>
@@ -507,7 +516,7 @@ if (isset($_POST['pc2TurnOff'])) {
                             <i data-lucide="computer" class="cont-button"></i>
                         </div>
                         <div class="data-text">
-                            <p class="text">Komputer 2</p>
+                            <p class="">Komputer 1</p>
                             <form action="" method="post">
                                 <?php if ($pc1State['state'] == 1) : ?>
                                     <button type="submit" class="m-3 color-button" name="pc1TurnOn">OFF</button>
@@ -527,7 +536,7 @@ if (isset($_POST['pc2TurnOff'])) {
                             <i data-lucide="computer" class="cont-button"></i>
                         </div>
                         <div class="data-text">
-                            <p class="text">Komputer 2</p>
+                            <p class="">Komputer 2</p>
                             <form action="" method="post">
                                 <?php if ($pc2State['state'] == 1) : ?>
                                     <button type="submit" class="m-3 color-button" name="pc2TurnOn">OFF</button>
