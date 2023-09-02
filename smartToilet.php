@@ -27,7 +27,10 @@ foreach ($data as $row) {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="icon" href="./assets/logo/logo.png">
+
 </head>
+
 <style>
     .nav-button-data {
         display: flex;
@@ -248,6 +251,9 @@ foreach ($data as $row) {
                     <i data-lucide="chevron-left" class="nav-button"></i>
                 </div>
             </a>
+            <div class="switch-container">
+                <h3>SMART Toilet</h3>
+            </div>
             <a href="">
                 <div class="nav-button-data">
                     <i data-lucide="refresh-ccw" class="nav-button"></i>
@@ -265,11 +271,11 @@ foreach ($data as $row) {
                         <div class="data-text">
                             <p class="number"><?= $status ?></p>
                             <?php if ($status == 1) : ?>
-                                <P class="text">TIDAK ADA ORANG</P>
+                                <P class="">STATUS : TIDAK ADA ORANG</P>
                             <?php elseif ($status == 2) : ?>
-                                <p class="text">ADA ORANG</p>
+                                <p class="">STATUS : ADA ORANG</p>
                             <?php else : ?>
-                                <p class="text">ADA ORANG TERJATUH</p>
+                                <p class="">STATUS : ADA ORANG TERJATUH</p>
                             <?php endif ?>
 
                         </div>

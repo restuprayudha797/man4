@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/main.css">
   <script src="https://kit.fontawesome.com/41b3ebfb1f.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="./assets/logo/logo.png">
 </head>
 
 <body>
@@ -54,10 +55,15 @@
         <h1 class="text-primary"><a href="smartRoom.php"><u>Smart Room</u></a></h1>
 
         <div class="row d-flex">
-          <div class="col-md-8">
+          <div class="col-md-8 mt-3">
             <blockquote class="blockquote">
-              <p>monitoring ruangan apakah ada orang atau tidak dalam ruangan
-                dan juga dapat mengendalikan perangkat alat elektronik jika tidak terpakai</p>
+              <p>Kasus kelalaian pada perangkat elektronik, menurut data Bina Administrasi Kewilayahn Kementrian Dalam Negeri terdapat 17.768 kasus kebakaran di Indonesia dengan 5.274 kasus diakibatkan konsleting alat elektronik. Bayangkan berapa potensi kerugian material yang diakibatkan kasus ini. Karena itu, kami terinspirasi untuk membuat FINUM yang merupakan singkatan dari Fiet Unum, sebuah sistem yang dapat mengontrol komponen AC dan lampu dalam labor komputer.</p>
+              <h4>Sistem ini memiliki 3 fitur utama dari ide solusi ini, yaitu :</h4>
+              <ul>
+                <li>Memantau dan mematikan komputer dari jarak jauh.</li>
+                <li>Mematikan AC dan lampu otomatis jika tidak ada orang didalam labor.</li>
+                <li>Membangun kebiasaan untuk lebih bertanggung jawab saat menggunakan labor computer.</li>
+              </ul>
             </blockquote>
           </div>
           <div class="col-md-4">
@@ -73,12 +79,16 @@
         <h1 class="text-primary mt-4"><a href="smartToilet.php"><u>Smart Toilet</u></a></h1>
 
         <div class="row d-flex mb-4 ">
-          <div class="col-md-8 ">
+          <div class="col-md-8 mt-3">
             <blockquote class="blockquote">
-              <p>monitoring keberadaan orang yang ada di dalam toilet
-                dan mendeteksi apakah ada terjadi kecelakaan dalam toilet tersebut
-                karena banyak sekali kasus dimana orang terjatuh di dalam toilet
-                yang mengakibatkan terlambat nya pertolongan yang berakibat Fatal</p>
+              <p>Berdasarkan data dari <i> National Institute On Aging</i> Tahun 2020 tentang Angka Kecelakaan Lansia di Kamar Mandi, bahwasannya 1 dari 3 orang lansia mengalami kecelakaan di kamar mandi dengan 80% kecelakaan tersebut karena tergelincir. Untuk itu perlu adanya solusi bagaimana meningkatkan keamanan lansia ketika beraktivitas di kamar mandi. Dengan memanfaatkan kemajuan teknologi yang berbasis <i> Internet of Things </i> (IoT) maka konsep <i> Smart Bathroom </i> ini hadir sebagai solusi terkait keamanan beraktivitas di kamar mandi bagi lansia.</p>
+              <p> <b> Nextoilet For Safety Bath </b> merupakan alat pengering otomatis disertai sensor yang akan memberitahu jika ada orang yang mengalami kecelakaan/ jatuh di kamar mandi kemudian akan mengirimkan notifikasi ke HP orang-orang terdekat.</p>
+              <h4>Konsep Smart Bathroom ini memuat tiga fitur utama:</h4>
+              <ul>
+                <li>Pengering lantai, mengusir kelembapan dan basah pada lantai kamar mandi setelah digunakan.</li>
+                <li>Pendeteksi, mendeteksi jika ada orang (lansia) yang masuk dan mengalami kecelakaan/jatuh di kamar mandi.  </li>
+                <li>Pengirim sinyal, mengirimkan notifikasi ke orang terdekat melalui handphone jika ada lansia yang terjatuh di kamar mandi.</li>
+              </ul>
             </blockquote>
           </div>
           <div class="col-md-4">
@@ -94,10 +104,17 @@
         <h1 class="text-primary"><a href="smartWaterPump.php"><u>Smart Water pump</u></a></h1>
 
         <div class="row d-flex mb-4">
-          <div class="col-md-8">
+          <div class="col-md-8 mt-3">
             <blockquote class="blockquote">
-              <p>monitoring kecepatan air, kejernihan Air, kebocoran air, dan mematikan hidupkan pompa air dari jarak
-                jauh</p>
+              <p>Air adalah salah satu elemen utama di Bumi yang menjadi bagian tidak terpisahkan bagi kehidupan makhluk hidup, sehingga air sangat dibutuhkan untuk menjaga kelangsungan di Dunia. Air yang sehat dan bersih menjadi salah satu kunci untuk kehidupan yang sehat. Pada masa sekarang ini pencemaran air adalah salah satu penyebab utama berbagai jenis penyakit yang dapat ditularkan melalui air, 40% dari kematian di seluruh dunia disebabkan oleh polusi air. Air yang bersih dan aman semakin lama semakin menipis setiap saatnya. Diperkirakan bahwa 21% dari penyakit menular di dunia terkait dengan air yang tidak sehat. kontaminasi pada air yang sudah lama ada di Dunia. Tingginya kebutuhan dan persediaan air bersih di Indonesia perlu di imbangi. Persediaan air bersih di Indonesia yang tidak banyak dan kebutuhan yang tinggi membuat sebagian besar daerah di Indonesia tidak memiliki cukup persediaan air bersih untuk kebutuhan sehari-hari. </p>
+              <P>Kami terinspirasi untuk membuat Auto Water Pump yang memiliki kemampuan untuk menghidupkan dan mematikan air secara otomatis yang dilengkapi dengan sensor untuk mendeteksi kotoran dan kerusakan pada mesin/ pipa.</P>
+
+              <h4>Fitur dalam AUTO WATER PUMP :</h4>
+              <ul>
+                <li>Flow meter sebagai pendeteksi kecepatan air dan kebocoran pipa. Mendeteksi kebocoran pipa dengan mendeteksi kecepatan air dalam pipa.</li>
+                <li>2. Turbidity berfungsi sebagai pendeteksi kekeruhan air,pengisian air akan di hentikan jika air terdeteksi keruh,dan kekeruhan air di monitor dengan persentase.</li>
+                <li>3. Ultrasonik berfungsi sebagai pendeteksi ketinggian air, saat air mulai mendekati ultrasonik dengan jarak yang di sesuaikan, maka pengisian air di hentikan.</li>
+              </ul>
             </blockquote>
           </div>
           <div class="col-md-4">
@@ -130,7 +147,6 @@
           </p>
         </div>
         <div class="col-md-6">
-          <p class="text-end text-light">created by: siswaman4pekanbaru</p>
         </div>
       </div>
 
